@@ -30,4 +30,13 @@ CREATE TABLE table_name (
 
 mycursor = mydb.cursor()
 
+#CREATE A TABLE
+#my_cursor.execute(CREATE TABLE table_name)
+
+#SHOW TABLE
+#my_cursor.execute("SHOW TABLES")
+
+#SHOW DATABASE
+#my_cursor.execute("SHOW DATABASES")
+
 mycursor.execute("CREATE TABLE IF NOT EXISTS students (name VARCHAR(255), age INTEGER(10))")
