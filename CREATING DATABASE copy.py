@@ -20,6 +20,15 @@ mydb = mysql.connector.connect(
 
 mycursor = mydb.cursor()
 
+#CREATE A TABLE
+#my_cursor.execute(CREATE TABLE table_name)
+
+#SHOW TABLE
+#my_cursor.execute("SHOW TABLES")
+
+#SHOW DATABASE
+#my_cursor.execute("SHOW DATABASES")
+
 mycursor.execute("CREATE DATABASE IF NOT EXISTS test1")
 # when you check mysql application you will see there is a "matrixdb" databes
 
